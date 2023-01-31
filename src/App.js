@@ -1,9 +1,10 @@
 import React from 'react'
+import { FocusableInput } from './components'
 
 function App() {
   return (
     <div>
-      <h1>Hey🙂</h1>
+      <FocusableInput />
     </div>
   )
 }

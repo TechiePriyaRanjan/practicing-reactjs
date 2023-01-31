@@ -1,0 +1,44 @@
+@import url("https://fonts.cdnfonts.com/css/gotham-rounded");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gotham Rounded", sans-serif;
+}
+
+:root {
+  --primary-bg: #eea15a;
+}
+
+body {
+  background-color: var(--primary-bg);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input__wrapper {
+  background-color: #fff;
+  max-width: 550px;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 12px 12px rgba(0, 0, 0, 0.15);
+}
+
+.input__header {
+  margin-bottom: 1rem;
+  color: #525a5f;
+}
+
+.inputbox {
+  width: 350px;
+  padding: 1rem;
+  margin: .5rem;
+  height: 2rem;
+}
+
+.inputbox::placeholder {
+  color: black;
+}
