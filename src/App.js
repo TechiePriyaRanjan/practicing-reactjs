@@ -1,9 +1,10 @@
 import React from 'react'
+import TicTacToe from './components/TicTacToe'
 
 function App() {
   return (
-    <div>
-      <h1>Hey🙂</h1>
+    <div className='App__wrapper'>
+      <TicTacToe />
     </div>
   )
 }

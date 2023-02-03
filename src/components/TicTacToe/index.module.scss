@@ -1,0 +1,52 @@
+.tictactoe__container {
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  grid-template-columns: repeat(3, auto);
+  row-gap: .5rem;
+  column-gap: .5rem;
+  background-color: lightgray;
+}
+
+.tictactoe__square {
+  height: 110px;
+  width: 110px;
+  display: grid;
+  place-items: center;
+  background-color: white;
+}
+
+.tictactoe__cross {
+  stroke: #673ab7;
+}
+
+svg {
+  stroke-width: 15px;
+  stroke: #ff665c;
+  fill: none;
+  stroke-linecap: round;
+}
+
+.tictactoe__result {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 3em;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+}
+
+.tictactoe__reset {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 0.5em;
+  font-weight: bold;
+  border-radius: 5px;
+  color: gray;
+}
